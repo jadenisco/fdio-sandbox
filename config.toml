@@ -1,0 +1,31 @@
+title = "FDio - The Universal Dataplane"
+baseURL = "/"
+languageCode = "en-us"
+theme = "airspace-hugo"
+
+publishDir = "public"
+
+[menu]
+
+  [[menu.header]]
+    weight = 1
+    name = "PROJECTS"
+    url = "/projects"
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  dateFormat = "6 January 2006"
+
+  home = "Home"
+
+  [params.slider]
+    enable = true
+    bgImage = "img/fdio_bg_tech2.jpg"
+    title = "FD.io <br/>Fast data - Input/Output<br/>Documents"
+    btnText = "The FD.io Projects"
+    url = "/projects"
